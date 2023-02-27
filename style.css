@@ -1,0 +1,166 @@
+:root{
+
+    --main: #2B9DF4;
+
+}
+
+.color-main{
+
+    color: var(--main)
+
+}
+
+.color-white{
+
+    color: rgb(230, 230, 230);
+
+}
+
+.bg-black{
+
+    background-color: rgb(15, 15, 15);
+
+}
+
+h1,h2,h3,h4,h5,h6,p,a,.h1,.h2,.h3,.h4,.h5,.h6,.p,.a{
+
+    color: rgb(221, 221, 221);
+
+}
+
+/* fonts */
+body{
+
+    font-family: 'Jura', sans-serif;
+    /* color: rgb(230, 230, 230); */
+
+}
+
+.font-orbitron{
+
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+/* navbar */
+.navbar-dark{
+
+background-color: rgb(15, 15, 15) !important;
+
+}
+
+/* header */
+
+.bg-moon{
+
+    height: 450px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgb(30, 30, 30, 0.4), rgba(0,0,0,0.5) 370px), url('./media/moon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* sect 1 */
+.n-sect1{
+
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: 2px solid #2B9DF4 ;
+
+}
+
+.sect2-3-spacing{
+
+    height: 200px;
+
+}
+
+
+/* sect 2 */
+.text-moon2{
+
+    padding-top: 100px;
+
+}
+
+/* sect 3 */
+.sect3-p{
+
+    border-top: 2px solid var(--main);
+
+}
+
+/* sect 4 */
+.sect3-4-spacing{
+
+    height: 200px;
+
+}
+
+.spacing-shuttle{
+
+    height: 100px;
+
+}
+
+.bg-shuttle{
+
+    background-image: url('./media/missile-2027068_1280.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+
+/* sect 5 */
+
+.btn-sect5{
+
+    height: 50px;
+    width: 120px;
+    background:
+      linear-gradient(to right, #2B9DF4 4px, transparent 4px) 0 0,
+      linear-gradient(to right, #2B9DF4 4px, transparent 4px) 0 100%,
+      linear-gradient(to left, #2B9DF4 4px, transparent 4px) 100% 0,
+      linear-gradient(to left, #2B9DF4 4px, transparent 4px) 100% 100%,
+      linear-gradient(to bottom, #2B9DF4 4px, transparent 4px) 0 0,
+      linear-gradient(to bottom, #2B9DF4 4px, transparent 4px) 100% 0,
+      linear-gradient(to top, #2B9DF4 4px, transparent 4px) 0 100%,
+      linear-gradient(to top, #2B9DF4 4px, transparent 4px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    border-radius: 0%;
+    border-color: black;
+    position: relative;
+    left: 70%;
+
+} 
+
+/* sect 6 */
+
+.bg-last{
+
+    height: 300px;
+    background: linear-gradient(rgba(0, 128, 0, 0), black), url('./media/sunrise-1765027_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    background-position: center, center;
+
+
+}
+
+/* footer */
+
+.bg-footer{
+
+    height: 100px;
+    border-image: linear-gradient(to left, #000000, #000000, var(--main), #000000, black) 1;
+    border-width: 4px;
+    border-style: solid;
+    border-left: black;
+    border-bottom: black;
+    border-right: black;
+
+}
